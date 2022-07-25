@@ -70,7 +70,6 @@ const Scene = ({ animatedSensor }) => {
         castShadow
         ref={mesh}
         rotation={[-1.5, 0, 0]}
-        // rotation={[-0.8, 0, 0]}
         object={obj}
         scale={0.45}
       />
@@ -95,7 +94,7 @@ export default function App() {
           <ambientLight intensity={0.3} />
           <directionalLight
             castShadow
-            position={[0, 7, 10]}
+            position={[0, 7, 13]}
             intensity={0.5}
             shadow-mapSize-height={2048}
             shadow-mapSize-width={2048}
