@@ -30,7 +30,7 @@ import {
   Image as SvgImage,
 } from "react-native-svg";
 
-const colorPrimary = "rgb(11,70,245)";
+const colorPrimary = "#2596be";
 
 const { width, height } = Dimensions.get("window");
 
