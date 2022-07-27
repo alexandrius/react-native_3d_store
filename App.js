@@ -5,7 +5,7 @@ import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader";
 import { MTLLoader } from "three/examples/jsm/loaders/MTLLoader";
 import { Suspense, useLayoutEffect, useRef, useEffect, useState } from "react";
 import { TextureLoader } from "expo-three";
-import { View, Image, StyleSheet, Dimensions } from "react-native";
+import { View, Image, StyleSheet, Dimensions, LogBox } from "react-native";
 
 import { Gyroscope } from "expo-sensors";
 
@@ -13,6 +13,8 @@ import { useAnimatedSensor, SensorType } from "react-native-reanimated";
 import Details from "./Details";
 
 const { width, height } = Dimensions.get("window");
+
+LogBox.ignoreAllLogs(true);
 
 const Scene = ({ animatedSensor }) => {
   const [diffuse, bump, specular] = useLoader(TextureLoader, [
