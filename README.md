@@ -9,12 +9,6 @@
 
 [Expo 46](https://blog.expo.dev/expo-sdk-46-beta-is-now-available-9dfee4040aa7) (React 18) required for `react-three-fiber`
 
-## Live Demo
-
-*You may need Expo Go Beta, you can get it from [TestFlight beta](https://testflight.apple.com/join/GZJxxfUU)*
-
-https://expo.dev/@4twiggers/Rotation3D
-
 
 ## Video Demonstation
 
